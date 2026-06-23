@@ -94,11 +94,14 @@ export function Contact() {
       id="contacto"
       className="scroll-mt-24 border-t border-line bg-elevated"
     >
-      <div className="shell grid gap-12 py-24 md:py-32 lg:grid-cols-12 lg:gap-16">
+      <div className="shell py-24 md:py-32">
+        {/* Línea de canal a ancho completo: el código // NN llega al borde
+            derecho como en las demás secciones. */}
+        <ChannelLine channel={t("channel")} code="MSG // 06" />
+        <div className="mt-10 grid gap-12 lg:grid-cols-12 lg:gap-16">
         {/* Lado izquierdo */}
         <div className="flex flex-col gap-8 lg:col-span-5">
           <div className="flex flex-col gap-5">
-            <ChannelLine channel={t("channel")} code="MSG // 06" />
             <h2 className="text-[clamp(2rem,5vw,3.5rem)]">{t("title")}</h2>
             <p className="max-w-md text-pretty text-ink-dim">{t("lead")}</p>
           </div>
@@ -271,6 +274,7 @@ export function Contact() {
               </p>
             </div>
           </form>
+        </div>
         </div>
       </div>
     </section>

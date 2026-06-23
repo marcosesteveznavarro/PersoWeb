@@ -14,17 +14,21 @@ export function FeaturedWork() {
       id="trabajo"
       className="scroll-mt-24 overflow-hidden border-t border-line py-24 md:py-32"
     >
-      <div className="shell flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
-        <div className="flex flex-1 flex-col gap-5">
-          <ChannelLine channel={t("channel")} code="WORK // 03" />
-          <h2 className="max-w-2xl text-[clamp(1.9rem,4.6vw,3.4rem)]">
-            {t("title")}
-          </h2>
-          <p className="max-w-md text-pretty text-ink-dim">{t("lead")}</p>
+      <div className="shell">
+        {/* Línea de canal a ancho completo: el código // NN llega al borde
+            derecho como en las demás secciones (no constreñido por el botón). */}
+        <ChannelLine channel={t("channel")} code="WORK // 03" />
+        <div className="mt-5 flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
+          <div className="flex flex-1 flex-col gap-5">
+            <h2 className="max-w-2xl text-[clamp(1.9rem,4.6vw,3.4rem)]">
+              {t("title")}
+            </h2>
+            <p className="max-w-md text-pretty text-ink-dim">{t("lead")}</p>
+          </div>
+          <Button href="/work" variant="secondary" arrow>
+            {t("viewAll")}
+          </Button>
         </div>
-        <Button href="/work" variant="secondary" arrow>
-          {t("viewAll")}
-        </Button>
       </div>
 
       <div className="shell mt-10 grid gap-5 sm:grid-cols-2 md:mt-14">
