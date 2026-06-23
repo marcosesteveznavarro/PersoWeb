@@ -15,8 +15,9 @@ export const SITE = {
   email: "marcos.esteveznavarro@gmail.com",
   phone: "671 11 38 59",
   phoneHref: "+34671113859",
-  // [RELLENAR] confirmar al comprar el dominio (previsto: marcosestevez.com)
-  domain: "https://marcosestevez.com",
+  // Dominio en producción (Vercel). El primario que sirve es www; el apex
+  // marcosestevez.com redirige 308 → www. Canónico = www para casar con el deploy.
+  domain: "https://www.marcosestevez.com",
   socials: {
     linkedin: "https://www.linkedin.com/in/marcos-estevez-navarro/",
     github: "https://github.com/marcosesteveznavarro",
