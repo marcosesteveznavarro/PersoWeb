@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "home": {
+      "title": "Marcos Estévez — Ingeniero de software que llega a producción",
+      "description": "Construyo apps, plataformas y webs a medida con rigor de automoción y mentalidad de competición. Del primer commit al deploy."
+    },
+    "work": {
+      "title": "Trabajo",
+      "description": "Productos reales en producción: apps, SaaS a medida, herramientas de datos y webs de cliente."
+    },
+    "caseStudy": {
+      "description": "Caso de estudio: problema, enfoque y resultado."
+    },
+    "contact": {
+      "title": "Contacto — Marcos Estévez",
+      "description": "Cuéntame qué quieres construir. Software a medida, app móvil o web de nivel."
+    },
+    "privacy": {
+      "title": "Privacidad",
+      "description": "Política de privacidad y tratamiento de datos."
+    },
+    "legalNotice": {
+      "title": "Aviso legal",
+      "description": "Aviso legal e información del titular del sitio."
+    }
+  },
+  "nav": {
+    "services": "Servicios",
+    "process": "Proceso",
+    "work": "Trabajo",
+    "about": "Sobre mí",
+    "stack": "Stack",
+    "contact": "Contacto",
+    "cta": "Trabajemos juntos",
+    "menu": "Abrir menú",
+    "close": "Cerrar menú",
+    "home": "Inicio",
+    "sections": "Secciones",
+    "skip": "Saltar al contenido"
+  },
+  "hero": {
+    "eyebrow": "Delivery & Project Manager · Vigo, Galicia",
+    "title": "Ingeniería de software que llega a producción.",
+    "sub": "Construyo apps, plataformas y webs a medida con rigor de automoción y mentalidad de competición. Del primer commit al deploy.",
+    "ctaPrimary": "Trabajemos juntos",
+    "ctaSecondary": "Ver trabajo",
+    "scroll": "Desplázate",
+    "boot": {
+      "channel": "Marcos Estévez · Núcleo de telemetría",
+      "lines": [
+        { "tag": "BOOT", "label": "núcleo de telemetría" },
+        { "tag": "LOAD", "label": "módulos de interfaz" },
+        { "tag": "CAL", "label": "calibrando instrumentos" },
+        { "tag": "SYNC", "label": "proyectos y servicios" },
+        { "tag": "OK", "label": "sistema en línea" }
+      ]
+    }
+  },
+  "marquee": {
+    "label": "En producción"
+  },
+  "services": {
+    "channel": "Servicios",
+    "title": "Tres formas de construir contigo.",
+    "lead": "Llevo producto de la idea a la store y al deploy. Cada oferta resuelve un problema concreto.",
+    "forWhom": "Para quién",
+    "cta": "Hablemos de tu proyecto",
+    "items": {
+      "software": {
+        "title": "Software a medida / SaaS",
+        "desc": "Aplicaciones y plataformas que llevo a producción: gestión, automatización, productos SaaS.",
+        "who": "Empresas que necesitan una herramienta que no existe en el mercado."
+      },
+      "mobile": {
+        "title": "Apps móviles (Android / iOS)",
+        "desc": "Del concepto a la store, con foco en lo que de verdad usa la gente.",
+        "who": "Negocios que quieren su propia app o un producto móvil."
+      },
+      "web": {
+        "title": "Diseño y desarrollo web",
+        "desc": "Webs rápidas, accesibles y con acabado premium. Sin plantillas genéricas.",
+        "who": "Pymes y marcas que necesitan presencia digital de nivel."
+      }
+    }
+  },
+  "process": {
+    "channel": "Proceso",
+    "title": "Cómo trabajo.",
+    "lead": "Un camino corto y honesto, de la primera conversación a un producto que funciona en producción.",
+    "steps": {
+      "discovery": {
+        "title": "Descubrimiento",
+        "desc": "Entiendo el problema, el contexto y para quién es. Sin esto, lo demás sobra."
+      },
+      "design": {
+        "title": "Diseño",
+        "desc": "Defino arquitectura y experiencia. Decisiones explícitas, no a ojo."
+      },
+      "build": {
+        "title": "Build",
+        "desc": "Construyo en iteraciones cortas, con calidad y pruebas donde importan."
+      },
+      "delivery": {
+        "title": "Entrega e iteración",
+        "desc": "Lo pongo en producción y lo mantengo vivo: medir, ajustar, mejorar."
+      }
+    }
+  },
+  "work": {
+    "channel": "Trabajo destacado",
+    "title": "Productos reales, en producción.",
+    "lead": "Una mezcla de producto propio y trabajo de cliente. Cada caso enlaza a su historia completa.",
+    "viewAll": "Ver todo el trabajo",
+    "viewCase": "Ver caso",
+    "index": {
+      "title": "Trabajo",
+      "lead": "Productos en producción, herramientas de datos y webs de cliente. Filtra por tipo."
+    },
+    "filters": {
+      "all": "Todo",
+      "saas": "Software a medida",
+      "app": "Apps",
+      "web": "Web",
+      "data": "Datos"
+    },
+    "status": {
+      "published": "Publicado",
+      "production": "En producción",
+      "development": "En desarrollo"
+    },
+    "case": {
+      "overview": "Resumen",
+      "problem": "El problema",
+      "solution": "El enfoque",
+      "result": "El resultado",
+      "role": "Mi rol",
+      "stack": "Stack",
+      "year": "Año",
+      "type": "Tipo",
+      "links": "Enlaces",
+      "metrics": "Datos",
+      "note": "Nota",
+      "next": "Siguiente proyecto",
+      "back": "Volver al trabajo",
+      "cta": "¿Algo parecido en mente?",
+      "ctaButton": "Cuéntame tu caso",
+      "soon": "Próximamente"
+    }
+  },
+  "about": {
+    "channel": "Sobre mí",
+    "title": "Dirijo la entrega de software crítico — y construyo el mío.",
+    "photoAlt": "Retrato de Marcos Estévez Navarro",
+    "body": [
+      "Soy Marcos Estévez Navarro, Delivery & Project Manager en Vigo (Pontevedra). Más de 6 años en software, 4 de ellos gestionando entregas.",
+      "Durante 3 años dirigí la entrega de un producto de software crítico para el Grupo BMW, dentro de un programa de 100-150 ingenieros y 3 proveedores: punto de contacto con el cliente, y responsable de alcance, plazos, calidad y presupuesto, con integración diaria y release en cada hito.",
+      "Y construyo mis propios productos de principio a fin: los diseño, los desarrollo y los pongo en producción. Gestionar entregas complejas y construir software real es lo que traigo a cada proyecto."
+    ],
+    "experienceTitle": "Trayectoria",
+    "experience": [
+      { "role": "Software Manager · Grupo BMW (vía Jember)", "period": "2023 — 2026" },
+      { "role": "Project Manager · Grupo BMW (vía Jember)", "period": "2022 — 2023" },
+      { "role": "Ingeniero de validación · Ficosa (Capgemini/Altran)", "period": "2021 — 2022" },
+      { "role": "Responsable técnico · CTAG", "period": "2019 — 2020" }
+    ],
+    "domainsTitle": "Protocolos y dominio",
+    "languagesTitle": "Idiomas",
+    "ctaCv": "Descargar CV",
+    "ctaLinkedin": "LinkedIn",
+    "ctaGithub": "GitHub",
+    "forClients": "Para clientes",
+    "forRecruiters": "Para reclutadores",
+    "forClientsText": "El mismo rigor de un sistema que no puede fallar, aplicado a tu producto.",
+    "forRecruitersText": "Entrega de software crítico, gestión de cliente y proveedores, Agile/Scrum, métricas de delivery y presupuesto."
+  },
+  "skills": {
+    "channel": "Stack técnico",
+    "title": "Lo que llevo en la caja de herramientas.",
+    "lead": "Agrupado por dominio. Sin barras de porcentaje: o lo uso en producción o no está aquí.",
+    "groups": {
+      "delivery": "Gestión & delivery",
+      "product": "Desarrollo de producto",
+      "ai": "IA aplicada",
+      "foundations": "Base técnica"
+    }
+  },
+  "contact": {
+    "channel": "Contacto",
+    "title": "Construyamos algo que funcione.",
+    "lead": "Cuéntame qué tienes en mente. Respondo en persona, normalmente en menos de 24 h.",
+    "directTitle": "Vía directa",
+    "findMe": "Encuéntrame en",
+    "or": "o",
+    "hiring": "¿Reclutas?",
+    "hiringText": "Descarga mi CV o escríbeme por LinkedIn.",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Cómo te llamas",
+      "email": "Email",
+      "emailPlaceholder": "tu@email.com",
+      "projectType": "Tipo de proyecto",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntame brevemente qué quieres construir",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando…",
+      "success": "Mensaje recibido. Si no tienes respuesta en 24 h, escríbeme a marcos.esteveznavarro@gmail.com.",
+      "error": "No se pudo enviar. Escríbeme directamente a",
+      "required": "Campo obligatorio",
+      "invalidEmail": "Email no válido",
+      "types": {
+        "software": "Software a medida / SaaS",
+        "mobile": "App móvil",
+        "web": "Web",
+        "job": "Oportunidad laboral",
+        "other": "Otro"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Ingeniería de software que llega a producción.",
+    "navTitle": "Navegación",
+    "connectTitle": "Conecta",
+    "legalTitle": "Legal",
+    "privacy": "Privacidad",
+    "legalNotice": "Aviso legal",
+    "rights": "Todos los derechos reservados.",
+    "madeWith": "Diseñado y construido en Galicia.",
+    "backToTop": "Volver arriba",
+    "availability": "Disponible para nuevos proyectos"
+  },
+  "language": {
+    "label": "Idioma",
+    "es": "Español",
+    "en": "English"
+  },
+  "cookies": {
+    "message": "Uso analítica respetuosa con tu privacidad, sin cookies de seguimiento de terceros.",
+    "accept": "Aceptar",
+    "reject": "Rechazar",
+    "policy": "Política de privacidad",
+    "dialogLabel": "Preferencias de cookies"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Señal perdida.",
+    "body": "Esta ruta no existe o se ha movido. Volvamos a terreno conocido.",
+    "home": "Volver al inicio"
+  }
+}

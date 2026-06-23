@@ -12,6 +12,10 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Carpetas locales fuera de la app (no se publican):
+    ".claude/**",
+    "design_handoff_hero_instrument/**",
+    "design_handoff_full_site/**",
   ]),
 ]);
 

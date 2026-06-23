@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "home": {
+      "title": "Marcos Estévez — Software engineering that ships to production",
+      "description": "I build custom apps, platforms and websites with automotive-grade rigor and a racing mindset. From first commit to deploy."
+    },
+    "work": {
+      "title": "Work",
+      "description": "Real products in production: apps, custom SaaS, data tools and client websites."
+    },
+    "caseStudy": {
+      "description": "Case study: problem, approach and result."
+    },
+    "contact": {
+      "title": "Contact — Marcos Estévez",
+      "description": "Tell me what you want to build. Custom software, a mobile app, or a premium website."
+    },
+    "privacy": {
+      "title": "Privacy",
+      "description": "Privacy policy and data handling."
+    },
+    "legalNotice": {
+      "title": "Legal notice",
+      "description": "Legal notice and site owner information."
+    }
+  },
+  "nav": {
+    "services": "Services",
+    "process": "Process",
+    "work": "Work",
+    "about": "About",
+    "stack": "Stack",
+    "contact": "Contact",
+    "cta": "Let's build",
+    "menu": "Open menu",
+    "close": "Close menu",
+    "home": "Home",
+    "sections": "Sections",
+    "skip": "Skip to content"
+  },
+  "hero": {
+    "eyebrow": "Delivery & Project Manager · Vigo, Galicia",
+    "title": "Software engineering that ships to production.",
+    "sub": "I build custom apps, platforms and websites with automotive-grade rigor and a racing mindset. From first commit to deploy.",
+    "ctaPrimary": "Let's build",
+    "ctaSecondary": "See the work",
+    "scroll": "Scroll",
+    "boot": {
+      "channel": "Marcos Estévez · Telemetry core",
+      "lines": [
+        { "tag": "BOOT", "label": "telemetry core" },
+        { "tag": "LOAD", "label": "interface modules" },
+        { "tag": "CAL", "label": "calibrating instruments" },
+        { "tag": "SYNC", "label": "projects & services" },
+        { "tag": "OK", "label": "system online" }
+      ]
+    }
+  },
+  "marquee": {
+    "label": "In production"
+  },
+  "services": {
+    "channel": "Services",
+    "title": "Three ways to build with you.",
+    "lead": "I take products from idea to the store and the deploy. Each offer solves a concrete problem.",
+    "forWhom": "Who it's for",
+    "cta": "Let's talk about your project",
+    "items": {
+      "software": {
+        "title": "Custom software / SaaS",
+        "desc": "Apps and platforms I take to production: management, automation, SaaS products.",
+        "who": "Companies that need a tool the market doesn't have."
+      },
+      "mobile": {
+        "title": "Mobile apps (Android / iOS)",
+        "desc": "From concept to the store, focused on what people actually use.",
+        "who": "Businesses that want their own app or a mobile product."
+      },
+      "web": {
+        "title": "Web design & development",
+        "desc": "Fast, accessible websites with a premium finish. No generic templates.",
+        "who": "SMEs and brands that need a digital presence with real craft."
+      }
+    }
+  },
+  "process": {
+    "channel": "Process",
+    "title": "How I work.",
+    "lead": "A short, honest path from the first conversation to a product running in production.",
+    "steps": {
+      "discovery": {
+        "title": "Discovery",
+        "desc": "I understand the problem, the context and who it's for. Without this, the rest is noise."
+      },
+      "design": {
+        "title": "Design",
+        "desc": "I define architecture and experience. Explicit decisions, not guesswork."
+      },
+      "build": {
+        "title": "Build",
+        "desc": "I build in short iterations, with quality and tests where they matter."
+      },
+      "delivery": {
+        "title": "Delivery & iteration",
+        "desc": "I ship it to production and keep it alive: measure, adjust, improve."
+      }
+    }
+  },
+  "work": {
+    "channel": "Featured work",
+    "title": "Real products, in production.",
+    "lead": "A mix of my own products and client work. Each case links to its full story.",
+    "viewAll": "See all work",
+    "viewCase": "View case",
+    "index": {
+      "title": "Work",
+      "lead": "Products in production, data tools and client websites. Filter by type."
+    },
+    "filters": {
+      "all": "All",
+      "saas": "Custom software",
+      "app": "Apps",
+      "web": "Web",
+      "data": "Data"
+    },
+    "status": {
+      "published": "Published",
+      "production": "In production",
+      "development": "In development"
+    },
+    "case": {
+      "overview": "Overview",
+      "problem": "The problem",
+      "solution": "The approach",
+      "result": "The result",
+      "role": "My role",
+      "stack": "Stack",
+      "year": "Year",
+      "type": "Type",
+      "links": "Links",
+      "metrics": "Data",
+      "note": "Note",
+      "next": "Next project",
+      "back": "Back to work",
+      "cta": "Something similar in mind?",
+      "ctaButton": "Tell me your case",
+      "soon": "Soon"
+    }
+  },
+  "about": {
+    "channel": "About",
+    "title": "I deliver critical software — and I build my own.",
+    "photoAlt": "Portrait of Marcos Estévez Navarro",
+    "body": [
+      "I'm Marcos Estévez Navarro, a Delivery & Project Manager based in Vigo (Pontevedra, Spain). 6+ years in software, 4 of them managing delivery.",
+      "For 3 years I led the delivery of a critical software product for BMW Group, within a 100-150 engineer program with 3 suppliers: the main client contact, owning scope, timeline, quality and budget, with daily integration and a release at every milestone.",
+      "And I build my own products end to end: I design them, develop them and ship them to production. Running complex delivery and building real software is what I bring to every project."
+    ],
+    "experienceTitle": "Track record",
+    "experience": [
+      { "role": "Software Manager · BMW Group (via Jember)", "period": "2023 — 2026" },
+      { "role": "Project Manager · BMW Group (via Jember)", "period": "2022 — 2023" },
+      { "role": "Validation engineer · Ficosa (Capgemini/Altran)", "period": "2021 — 2022" },
+      { "role": "Technical lead · CTAG", "period": "2019 — 2020" }
+    ],
+    "domainsTitle": "Protocols & domain",
+    "languagesTitle": "Languages",
+    "ctaCv": "Download CV",
+    "ctaLinkedin": "LinkedIn",
+    "ctaGithub": "GitHub",
+    "forClients": "For clients",
+    "forRecruiters": "For recruiters",
+    "forClientsText": "The rigor of a system that can't fail, applied to your product.",
+    "forRecruitersText": "Critical software delivery, client & supplier management, Agile/Scrum, delivery metrics and budget."
+  },
+  "skills": {
+    "channel": "Tech stack",
+    "title": "What's in the toolbox.",
+    "lead": "Grouped by domain. No percentage bars: either I run it in production or it isn't here.",
+    "groups": {
+      "delivery": "Management & delivery",
+      "product": "Product development",
+      "ai": "Applied AI",
+      "foundations": "Technical foundations"
+    }
+  },
+  "contact": {
+    "channel": "Contact",
+    "title": "Let's build something that works.",
+    "lead": "Tell me what you have in mind. I reply personally, usually within 24 hours.",
+    "directTitle": "Direct line",
+    "findMe": "Find me on",
+    "or": "or",
+    "hiring": "Hiring?",
+    "hiringText": "Download my CV or reach out on LinkedIn.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@email.com",
+      "projectType": "Project type",
+      "message": "Message",
+      "messagePlaceholder": "Tell me briefly what you want to build",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "success": "Message received. If you don't hear back within 24 h, email me at marcos.esteveznavarro@gmail.com.",
+      "error": "Couldn't send. Email me directly at",
+      "required": "Required field",
+      "invalidEmail": "Invalid email",
+      "types": {
+        "software": "Custom software / SaaS",
+        "mobile": "Mobile app",
+        "web": "Web",
+        "job": "Job opportunity",
+        "other": "Other"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Software engineering that ships to production.",
+    "navTitle": "Navigation",
+    "connectTitle": "Connect",
+    "legalTitle": "Legal",
+    "privacy": "Privacy",
+    "legalNotice": "Legal notice",
+    "rights": "All rights reserved.",
+    "madeWith": "Designed and built in Galicia.",
+    "backToTop": "Back to top",
+    "availability": "Available for new projects"
+  },
+  "language": {
+    "label": "Language",
+    "es": "Español",
+    "en": "English"
+  },
+  "cookies": {
+    "message": "I use privacy-friendly analytics, with no third-party tracking cookies.",
+    "accept": "Accept",
+    "reject": "Reject",
+    "policy": "Privacy policy",
+    "dialogLabel": "Cookie preferences"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Signal lost.",
+    "body": "This route doesn't exist or has moved. Let's get back to known ground.",
+    "home": "Back home"
+  }
+}
