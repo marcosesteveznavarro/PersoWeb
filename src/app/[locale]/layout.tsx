@@ -87,7 +87,7 @@ export async function generateMetadata({
       card: "summary_large_image",
     },
     robots: { index: true, follow: true },
-    icons: { icon: "/favicon.ico" },
+    // Iconos: los genera Next desde src/app/{favicon.ico,icon.png,apple-icon.png}.
   };
 }
 
