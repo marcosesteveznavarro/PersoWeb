@@ -89,6 +89,78 @@ export const PROJECTS: Project[] = [
     featured: true,
   },
   {
+    slug: "marcosestevez-com",
+    title: "Marcos Estévez",
+    type: "web",
+    typeLabel: { es: "Web · Portfolio", en: "Web · Portfolio" },
+    status: "published",
+    year: "2026",
+    role: { es: "Diseño + desarrollo full-stack", en: "Full-stack design + development" },
+    stack: ["Next.js 16", "TypeScript", "Tailwind v4", "next-intl", "Motion", "Vercel"],
+    summary: {
+      es: "Esta misma web: un portfolio bilingüe con estética 'tech', diseñado y construido de cero.",
+      en: "This very site: a bilingual portfolio with a 'tech' aesthetic, designed and built from scratch.",
+    },
+    problem: {
+      es: "Un perfil que mezcla gestión de entregas y desarrollo propio necesitaba una web que demostrara criterio de diseño y oficio técnico a la vez — no una plantilla más.",
+      en: "A profile that blends delivery management and hands-on development needed a site that proves design judgment and technical craft at once — not one more template.",
+    },
+    solution: {
+      es: "La diseñé y desarrollé entera: sistema de diseño oscuro 'Tech Blue', bilingüe ES/EN con next-intl, motion orquestado (Motion · GSAP · Lenis) y accesibilidad AA como suelo, no como extra.",
+      en: "I designed and built the whole thing: a dark 'Tech Blue' design system, bilingual ES/EN with next-intl, orchestrated motion (Motion · GSAP · Lenis) and AA accessibility as a floor, not an add-on.",
+    },
+    result: {
+      es: "La estás viendo. En producción en Vercel, con formulario de contacto real (Resend), SEO con JSON-LD y cabeceras de seguridad endurecidas.",
+      en: "You're looking at it. Live on Vercel, with a working contact form (Resend), JSON-LD SEO and hardened security headers.",
+    },
+    metrics: [
+      { label: { es: "Idiomas", en: "Languages" }, value: "ES · EN" },
+      { label: { es: "Accesibilidad", en: "Accessibility" }, value: "WCAG AA" },
+      { label: { es: "Estado", en: "Status" }, value: "Live" },
+    ],
+    links: [{ label: "marcosestevez.com", href: "https://www.marcosestevez.com" }],
+    note: {
+      es: "Sí: es esta página. El caso que estás leyendo vive en la propia web que describe.",
+      en: "Yes — it's this page. The case you're reading lives on the very site it describes.",
+    },
+    featured: true,
+    cover: "/work/marcosestevez.webp",
+  },
+  {
+    slug: "linda-vibrante",
+    title: "Linda Vibrante",
+    type: "web",
+    typeLabel: { es: "Web · Marca", en: "Web · Brand" },
+    status: "published",
+    year: "2026",
+    role: { es: "Diseño + desarrollo full-stack", en: "Full-stack design + development" },
+    stack: ["React 18", "Vite", "Motion sin librerías", "CSS a medida", "Vercel"],
+    summary: {
+      es: "Landing de una marca de estética y bienestar en Vigo: una sola página, mucho oficio de movimiento.",
+      en: "Landing page for an aesthetics & wellness brand in Vigo: a single page, a lot of motion craft.",
+    },
+    problem: {
+      es: "Una práctica de estética y bienestar necesitaba una presencia online cuidada que transmitiera su trato cercano y llevara a reservar, sin la fricción ni el coste de un CMS pesado.",
+      en: "An aesthetics & wellness practice needed a polished online presence that conveyed its personal touch and led to bookings — without the friction or cost of a heavy CMS.",
+    },
+    solution: {
+      es: "Una landing one-page 100% estática (React + Vite) con todo el motion resuelto sin librerías externas: scroll suave, revelados con máscara, cursor propio, botones magnéticos, parallax y grano — todo respetando 'prefers-reduced-motion'. Tipografía editorial con Newsreader y Hanken Grotesk.",
+      en: "A 100% static one-page landing (React + Vite) with all the motion solved without external libraries: smooth scroll, mask reveals, a custom cursor, magnetic buttons, parallax and grain — all honoring 'prefers-reduced-motion'. Editorial type with Newsreader and Hanken Grotesk.",
+    },
+    result: {
+      es: "En producción en Vercel. Presenta los servicios y deriva las reservas a Booksy y WhatsApp, sin backend que mantener.",
+      en: "Live on Vercel. It showcases the services and routes bookings to Booksy and WhatsApp, with no backend to maintain.",
+    },
+    metrics: [
+      { label: { es: "Formato", en: "Format" }, value: "One-page" },
+      { label: { es: "Hosting", en: "Hosting" }, value: "Vercel" },
+      { label: { es: "Ubicación", en: "Location" }, value: "Vigo" },
+    ],
+    links: [{ label: "lindavibrante.com", href: "https://www.lindavibrante.com" }],
+    featured: true,
+    cover: "/work/lindavibrante.webp",
+  },
+  {
     slug: "autocaravanas-aurora",
     title: "Autocaravanas Aurora",
     type: "saas",
