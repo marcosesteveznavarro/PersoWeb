@@ -38,7 +38,7 @@ export async function generateMetadata({
       url: `${SITE.domain}/${locale}/work/${slug}`,
       title: project.title,
       description: project.summary[locale],
-      images: [`/${locale}/opengraph-image`],
+      // La imagen OG sale del `opengraph-image.tsx` de este segmento.
     },
   };
 }
@@ -67,16 +67,42 @@ export default async function CaseStudyPage({
     (m) => !m.value.startsWith("["),
   );
 
+  const tMeta = await getTranslations({ locale, namespace: "meta" });
+
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
-    "@id": `${SITE.domain}/${locale}/work/${slug}#creativework`,
-    name: project.title,
-    description: project.summary[locale],
-    url: `${SITE.domain}/${locale}/work/${slug}`,
-    dateCreated: project.year,
-    creator: { "@id": `${SITE.domain}/#person` },
-    keywords: project.stack.join(", "),
+    "@graph": [
+      {
+        "@type": "CreativeWork",
+        "@id": `${SITE.domain}/${locale}/work/${slug}#creativework`,
+        name: project.title,
+        description: project.summary[locale],
+        url: `${SITE.domain}/${locale}/work/${slug}`,
+        inLanguage: locale,
+        dateCreated: project.year,
+        creator: { "@id": `${SITE.domain}/#person` },
+        keywords: project.stack.join(", "),
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${SITE.domain}/${locale}/work/${slug}#breadcrumb`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: SITE.shortName,
+            item: `${SITE.domain}/${locale}`,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: tMeta("work.title"),
+            item: `${SITE.domain}/${locale}/work`,
+          },
+          { "@type": "ListItem", position: 3, name: project.title },
+        ],
+      },
+    ],
   };
 
   return (

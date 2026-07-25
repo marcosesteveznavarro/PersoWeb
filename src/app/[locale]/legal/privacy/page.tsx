@@ -21,7 +21,6 @@ export async function generateMetadata({
       title: t("title"),
       description: t("description"),
       url: `${SITE.domain}/${locale}/legal/privacy`,
-      images: [`/${locale}/opengraph-image`],
     },
     robots: { index: true, follow: true },
   };

@@ -23,12 +23,22 @@ export default async function HomePage({
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "WebSite",
+        "@id": `${SITE.domain}/#website`,
+        name: SITE.shortName,
+        url: SITE.domain,
+        inLanguage: locale,
+        publisher: { "@id": `${SITE.domain}/#person` },
+      },
+      {
         "@type": "Person",
         "@id": `${SITE.domain}/#person`,
         name: SITE.name,
         url: SITE.domain,
+        image: `${SITE.domain}/CV_image.jpeg`,
         jobTitle: "Delivery & Project Manager",
         email: `mailto:${SITE.email}`,
+        telephone: SITE.phoneHref,
         address: {
           "@type": "PostalAddress",
           addressLocality: "Vigo",
@@ -53,6 +63,8 @@ export default async function HomePage({
         url: SITE.domain,
         description: t("description"),
         founder: { "@id": `${SITE.domain}/#person` },
+        email: `mailto:${SITE.email}`,
+        telephone: SITE.phoneHref,
         areaServed: "ES",
         serviceType: [
           "Custom software / SaaS",
